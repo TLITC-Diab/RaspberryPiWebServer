@@ -7,6 +7,6 @@ export default class extends React.Component {
   }
 
   render() {
-    return <p>Current time is: {this.props.time}</p>;
+    return <p>The Current Time Is: "Time is an abstract of human perception an illusion created by NAHH NAHH NAHH NAHH NAAHH" {this.props.time}</p>;
   }
 }
