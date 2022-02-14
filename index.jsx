@@ -13,16 +13,13 @@ export default class extends React.Component {
         // parse JSON string to JSON object
         const num_got_lucky = JSON.parse(data);
 
-        // print all databases
-        num_got_lucky.forEach(db => {
-          num_got_lucky.log(`${db.name}: ${db.type}`);
         });
       }
-      
+
     });
 
-  render() {
+  render(); {
     return <p></p>;
     return <button>"Click If You Just Had Sex"</button>;
   }
-}
+}}
